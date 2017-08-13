@@ -62,7 +62,7 @@ public class Home extends JFrame {
 				try {
 					//new Admin_Login().setVisible(true);
 					Admin_Login al = new Admin_Login();
-					al.show();
+					al.setVisible(true);
 					//Admin_Login.frame.show();
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
